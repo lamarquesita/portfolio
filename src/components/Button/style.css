@@ -1,0 +1,67 @@
+.button {
+  all: unset;
+  align-items: center;
+  background-color: var(--primary);
+  border-radius: 100px;
+  box-sizing: border-box;
+  display: inline-flex;
+  gap: 12px;
+  height: 54px;
+  justify-content: center;
+  padding: 20px 6px 20px 24px;
+  position: relative;
+}
+
+.button .title {
+  color: var(--neutralblack);
+  font-family: var(--misc-button-font-family);
+  font-size: var(--misc-button-font-size);
+  font-style: var(--misc-button-font-style);
+  font-weight: var(--misc-button-font-weight);
+  letter-spacing: var(--misc-button-letter-spacing);
+  line-height: var(--misc-button-line-height);
+  margin-top: -2px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button .circle {
+  height: 42px;
+  margin-bottom: -14px;
+  margin-top: -14px;
+  overflow: hidden;
+  position: relative;
+  width: 42px;
+}
+
+.button .dot {
+  background-color: var(--neutralblack);
+  border-radius: 5px;
+  height: 10px;
+  left: 16px;
+  position: absolute;
+  top: 16px;
+  width: 10px;
+}
+
+.button .arrow {
+  height: 16px;
+  left: 174px;
+  position: absolute;
+  top: 937px;
+  width: 16px;
+}
+
+.button .img {
+  height: 24px;
+  left: 9px;
+  position: absolute;
+  top: 9px;
+  width: 24px;
+}
+
+.button .hovered {
+  background-color: var(--neutralblack);
+  border-radius: 21px;
+}

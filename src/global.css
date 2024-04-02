@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --misc-link: Manrope;
+  --heading-two: "Bebas Neue";
+  --font-inter: Inter;
+  --text-regular-normal: Roboto;
+
+  /* font sizes */
+  --misc-link-size: 16px;
+  --body-medium-size: 18px;
+  --heading-three-size: 32px;
+  --heading-one-size: 101px;
+  --heading-two-size: 76px;
+
+  /* Colors */
+  --color-gray-100: #222;
+  --color-gray-200: #1a1a1a;
+  --neutral-black: #0a0a0a;
+  --primary: #d3e97a;
+  --neutral-offwhite: #c7c7c7;
+  --neutral-white: #fff;
+  --neutral-dark-gray: #484848;
+  --black: #000;
+
+  /* Gaps */
+  --gap-9xs: 4px;
+  --gap-base: 16px;
+  --gap-5xl: 24px;
+  --gap-21xl: 40px;
+  --gap-5xs: 8px;
+  --gap-10xs: 3px;
+  --gap-xs: 12px;
+  --gap-13xl: 32px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-xs: 12px;
+  --padding-base: 16px;
+  --padding-7xs: 6px;
+  --padding-5xl: 24px;
+  --padding-5xs: 8px;
+
+  /* Border radiuses */
+  --br-81xl: 100px;
+  --br-9xs: 4px;
+  --br-base: 16px;
+
+  --black: rgba(0, 0, 0, 1);
+  --body-medium-font-family: "Manrope", Helvetica;
+  --body-medium-font-size: 18px;
+  --body-medium-font-style: normal;
+  --body-medium-font-weight: 400;
+  --body-medium-letter-spacing: 0px;
+  --body-medium-line-height: 150%;
+  --body-small-font-family: "Manrope", Helvetica;
+  --body-small-font-size: 16px;
+  --body-small-font-style: normal;
+  --body-small-font-weight: 500;
+  --body-small-letter-spacing: 0px;
+  --body-small-line-height: 160.0000023841858%;
+  --heading-four-font-family: "Manrope", Helvetica;
+  --heading-four-font-size: 24px;
+  --heading-four-font-style: normal;
+  --heading-four-font-weight: 500;
+  --heading-four-letter-spacing: -0.24px;
+  --heading-four-line-height: 129.99999523162842%;
+  --heading-one-font-family: "Bebas Neue", Helvetica;
+  --heading-one-font-size: 101px;
+  --heading-one-font-style: normal;
+  --heading-one-font-weight: 400;
+  --heading-one-letter-spacing: 0px;
+  --heading-one-line-height: 89.99999761581421%;
+  --heading-three-font-family: "Manrope", Helvetica;
+  --heading-three-font-size: 32px;
+  --heading-three-font-style: normal;
+  --heading-three-font-weight: 500;
+  --heading-three-letter-spacing: 0px;
+  --heading-three-line-height: 139.9999976158142%;
+  --heading-two-font-family: "Bebas Neue", Helvetica;
+  --heading-two-font-size: 76px;
+  --heading-two-font-style: normal;
+  --heading-two-font-weight: 400;
+  --heading-two-letter-spacing: 0px;
+  --heading-two-line-height: 100%;
+  --misc-button-font-family: "Manrope", Helvetica;
+  --misc-button-font-size: 16px;
+  --misc-button-font-style: normal;
+  --misc-button-font-weight: 700;
+  --misc-button-letter-spacing: 0px;
+  --misc-button-line-height: 100%;
+  --misc-pill-font-family: "Manrope", Helvetica;
+  --misc-pill-font-size: 16px;
+  --misc-pill-font-style: normal;
+  --misc-pill-font-weight: 700;
+  --misc-pill-letter-spacing: 0px;
+  --misc-pill-line-height: 100%;
+  --neutralblack: rgba(10, 10, 10, 1);
+  --neutraldark-gray: rgba(72, 72, 72, 1);
+  --neutraloffwhite: rgba(199, 199, 199, 1);
+  --neutralwhite: rgba(255, 255, 255, 1);
+  --primary: rgba(211, 233, 122, 1);
+  --text-regular-normal-font-family: "Roboto", Helvetica;
+  --text-regular-normal-font-size: 16px;
+  --text-regular-normal-font-style: normal;
+  --text-regular-normal-font-weight: 400;
+  --text-regular-normal-letter-spacing: 0px;
+  --text-regular-normal-line-height: 150%;
+  --white: rgba(255, 255, 255, 1);
+  --black: rgba(0, 0, 0, 1);
+  --body-small-font-family: "Manrope", Helvetica;
+  --body-small-font-size: 16px;
+  --body-small-font-style: normal;
+  --body-small-font-weight: 500;
+  --body-small-letter-spacing: 0px;
+  --body-small-line-height: 160.0000023841858%;
+  --neutraloffwhite: rgba(199, 199, 199, 1);
+  --text-regular-normal-font-family: "Roboto", Helvetica;
+  --text-regular-normal-font-size: 16px;
+  --text-regular-normal-font-style: normal;
+  --text-regular-normal-font-weight: 400;
+  --text-regular-normal-letter-spacing: 0px;
+  --text-regular-normal-line-height: 150%;
+  --white: rgba(255, 255, 255, 1);
+
+}
